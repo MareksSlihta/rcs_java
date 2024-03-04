@@ -1,0 +1,25 @@
+
+
+public class Main {
+
+        public static void task2(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ievadiet 1. skaitli");
+        int number1 = sc.nextInt();
+
+        System.out.println("Ievadiet 2. skaitli");
+        int number2 = sc.nextInt();
+
+        int sum = number1 + number2;
+        System.out.println(sum);
+        System.out.println(number1 - number2);
+
+        if(sum == 0){
+        System.out.println("0");
+        }else if(sum > 0){
+        System.out.println("+");
+        }else if(sum < 0){
+        System.out.println("-");
+        }
+        }
